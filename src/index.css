@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --primary: #777777b2;
+  --secondary: url('./assets/Background.png');
+}
+
+body {
+  margin: 0;
+  background: var(--primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-dark {
+  background-color: #777777;
+  top: 0;
+  left: 0;
+}
+
+.reg-content {
+  margin: 0px auto;
+}
+.main-container {
+  background-color: #777777af;
+  min-height: 100vh;
+}
+
+.advert {
+  margin-top: 80px;
+  text-align: center;
+}
+.ads-btn {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background: black;
+  border: none;
+  width: 100px;
+}
+.ads-btn:hover {
+  background: #0000ffa6;
+  transition: 0.5s;
+}
+
+/* agreement page */
+.agreement-cont {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.agreement-cont h2 {
+  margin-bottom: 50px;
+}
+
+.agreement-cont ul {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  list-style: disc;
+}
+
+.agreement-cont li {
+  padding: 8px;
+}
+
+.agreement-cont button {
+  margin-top: 100px;
+  padding: 10px 70px;
+  border-radius: 10px;
+  background: #12b612da;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* dashboard section */
+.nav-linkk {
+  color: #fff;
+  text-decoration: none;
+}
+
+/********************************* form section *********************************************/
+ .form-card {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+ 
+} 
+
+ form {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 15px 50px #00000080;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  margin: 50px auto 10px auto;
+
+} 
+
+.form h1 {
+  color: #777;
+  padding-bottom: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+.form h2 {
+  color: #777;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form h4 {
+  color: #777;
+  padding-bottom: 50px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
+.recovery-input {
+  border: 1px solid #0000009c !important;
+  border-radius: 10px;
+}
+.form .input-box {
+  position: relative;
+  margin: 20px 0;
+}
+.form .input-box input {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #777;
+  outline: none;
+  padding: 10px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #777;
+}
+.form .input-box input:focus,
+.form .input-box input:active {
+  border-bottom: 2px solid #03a9f4;
+}
+
+.form .input-box .fa {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  font-size: 18px;
+  color: #777;
+}
+
+.eye {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+.form .input-box input[type='submit'] {
+  border: none;
+  cursor: pointer;
+  background: #03f417e3;
+  font-weight: bold;
+  transition: 0.5s;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.form .input-box input[type='submit']:hover {
+  background: #ff4987;
+}
+.form-btn {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #03f417e3;
+  font-weight: bold;
+  transition: 0.5s;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.resend-btn {
+  width: 100px;
+  text-align: center;
+  background-color: #ff4987;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form a {
+  text-decoration: none;
+  color: #777;
+  margin-top: 20px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.5s;
+}
+.form a:hover {
+  color: #ff4987;
+}
+
+/* this is footer section */
+.footer-container {
+  width: 100%;
+  min-height: 100px;
+  background-color: #777777;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+.footer-content {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer-link {
+  list-style: none;
+  padding-top: 10px;
+}
+.footer-link a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+.footer-container p {
+  color: white;
+}
+/*******************************************************************************/
+/* not found page */
+.not-found {
+  text-align: center;
+  padding-top: 100px;
+}
+/*******************************************************************************/
+
+/* this is responsive section */
+
+/* this is responsive section */
+@media only screen and (min-width: 800px) {
+}
+
+/* this is responsive section */
+@media only screen and (max-width: 800px) {
+  /* .content-container {
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+  
+  } */
+}

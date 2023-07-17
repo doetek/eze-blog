@@ -1,0 +1,56 @@
+.form-cont {
+  width: 50%;
+  min-height: 200px;
+  position: absolute;
+  background: #ffffff;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+  
+}
+
+.input-holder {
+    border: none;
+    border-bottom: 1.5px solid #00000048;
+}
+button{
+    padding: 8px;
+  
+}
+.back{
+   margin-right: 10px;
+   border: none;
+   width: 100px;
+   background: #7777775b;
+}
+
+.next{
+    margin-right: 10px;
+    border: none;
+    width: 100px;
+    background: #0447ff;
+    color: white;
+ }
+
+ .btn{
+    display: flex;
+    float: right;
+   
+ }
+
+.opt{
+    width: 50%;
+   position: absolute;
+
+   
+    background: #ffffff;
+    margin-left: 50px;
+    margin-top: 370px;
+    padding: 10px 20px;
+   
+
+}
